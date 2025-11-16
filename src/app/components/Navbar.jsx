@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
@@ -5,11 +6,12 @@ export default function Navbar() {
         <div>
             <nav className='flex justify-center mt-5'>
                 <ul className='flex justify-between w-1/2'>
-                    <li>Home</li>
-                    <li>Blogs</li>
-                    <li>About</li>
-                    <li>Login</li>
-                    <li>Register</li>
+                <Link href="/"><li>Home</li></Link>
+                <Link href="/blogs"><li>Blogs</li></Link>
+                <Link href="/about"><li>About</li></Link>
+                <Link href="/login"><li>Login</li></Link>
+                <Link href="/register"><li>Register</li></Link>
+                   
                 </ul>
 
             </nav>
