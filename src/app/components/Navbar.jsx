@@ -4,7 +4,7 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div>
-            <nav className='flex justify-center mt-5'>
+            <nav className='flex justify-center mt-5 mb-5'>
                 <ul className='flex justify-between w-1/2'>
                 <Link href="/"><li>Home</li></Link>
                 <Link href="/blogs"><li>Blogs</li></Link>
