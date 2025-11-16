@@ -13,7 +13,7 @@ export default async function BlogDetailPage({ params }) {
   }
 
   return (
-    <div className="min-h-screen py-8">
+    <div className="min-h-screen py-8 mt-16">
       <div className="max-w-4xl mx-auto px-4">
         <Link 
           href="/blogs"

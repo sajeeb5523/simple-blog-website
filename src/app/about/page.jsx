@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 export default function AboutPage() {
   return (
-    <div className="">
+    <div>
       <div className="max-w-7xl mx-auto px-4">    
         <div className="rounded-lg overflow-hidden">
-          <div className="p-8">
+          <div className="mt-20 mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">
               About Our Blog
             </h1>
